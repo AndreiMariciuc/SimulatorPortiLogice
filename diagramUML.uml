@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="225.0" y="141.0">gates.And</node>
+    <node x="4.5" y="0.0">gui.Button</node>
+    <node x="501.0" y="141.0">gates.NXor</node>
+    <node x="415.0" y="141.0">gates.Or</node>
+    <node x="320.0" y="141.0">gates.Xor</node>
+    <node x="0.0" y="141.0">gui.MenuBar</node>
+    <node x="130.0" y="141.0">gates.NOr</node>
+    <node x="814.8461538461538" y="141.0">gui.ModelMenu</node>
+    <node x="605.0" y="141.0">gates.Not</node>
+    <node x="479.0" y="262.0">Simulator</node>
+    <node x="700.0" y="141.0">gates.NAnd</node>
+    <node x="455.33035714285705" y="0.0">gates.Gate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Simulator" target="gui.ModelMenu">
+      <point x="49.23076923076928" y="-15.5" />
+      <point x="592.2307692307693" y="232.0" />
+      <point x="846.8461538461538" y="232.0" />
+      <point x="-32.0" y="15.5" />
+    </edge>
+    <edge source="Simulator" target="gates.NOr">
+      <point x="-39.38461538461536" y="-15.5" />
+      <point x="503.61538461538464" y="222.0" />
+      <point x="167.5" y="222.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="gates.NAnd" target="gates.Gate">
+      <point x="21.0" y="-15.5" />
+      <point x="763.0" y="71.0" />
+      <point x="526.2053571428571" y="71.0" />
+      <point x="28.875" y="15.5" />
+    </edge>
+    <edge source="gates.NOr" target="gates.Gate">
+      <point x="-18.75" y="-15.5" />
+      <point x="148.75" y="51.0" />
+      <point x="457.95535714285705" y="51.0" />
+      <point x="-39.375" y="15.5" />
+    </edge>
+    <edge source="gates.Not" target="gates.Gate">
+      <point x="18.75" y="-15.5" />
+      <point x="661.25" y="91.0" />
+      <point x="515.7053571428571" y="91.0" />
+      <point x="18.375" y="15.5" />
+    </edge>
+    <edge source="Simulator" target="gates.And">
+      <point x="-29.538461538461547" y="-15.5" />
+      <point x="513.4615384615385" y="212.0" />
+      <point x="262.5" y="212.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Simulator" target="gates.Not">
+      <point x="9.846153846153811" y="-15.5" />
+      <point x="552.8461538461538" y="192.0" />
+      <point x="642.5" y="192.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="gates.NXor" target="gates.Gate">
+      <point x="-21.0" y="-15.5" />
+      <point x="522.0" y="121.0" />
+      <point x="499.95535714285705" y="121.0" />
+      <point x="2.625" y="15.5" />
+    </edge>
+    <edge source="gui.MenuBar" target="gui.Button">
+      <point x="-36.66666666666663" y="-15.5" />
+      <point x="18.33333333333337" y="121.0" />
+      <point x="21.33333333333337" y="121.0" />
+      <point x="-33.66666666666663" y="15.5" />
+    </edge>
+    <edge source="Simulator" target="gui.MenuBar">
+      <point x="-59.076923076923094" y="-15.5" />
+      <point x="483.9230769230769" y="242.0" />
+      <point x="27.5" y="242.0" />
+      <point x="-27.5" y="15.5" />
+    </edge>
+    <edge source="Simulator" target="gates.Xor">
+      <point x="-19.692307692307622" y="-15.5" />
+      <point x="523.3076923076924" y="202.0" />
+      <point x="357.5" y="202.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="gates.Or" target="gates.Gate">
+      <point x="-16.5" y="-15.5" />
+      <point x="431.5" y="111.0" />
+      <point x="489.45535714285705" y="111.0" />
+      <point x="-7.875" y="15.5" />
+    </edge>
+    <edge source="Simulator" target="gates.NXor">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Simulator" target="gates.Or">
+      <point x="-9.846153846153811" y="-15.5" />
+      <point x="533.1538461538462" y="192.0" />
+      <point x="448.0" y="192.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="gates.Xor" target="gates.Gate">
+      <point x="-18.75" y="-15.5" />
+      <point x="338.75" y="91.0" />
+      <point x="478.95535714285705" y="91.0" />
+      <point x="-18.375" y="15.5" />
+    </edge>
+    <edge source="gates.And" target="gates.Gate">
+      <point x="-18.75" y="-15.5" />
+      <point x="243.75" y="71.0" />
+      <point x="468.45535714285705" y="71.0" />
+      <point x="-28.875" y="15.5" />
+    </edge>
+    <edge source="Simulator" target="gates.NAnd">
+      <point x="19.692307692307736" y="-15.5" />
+      <point x="562.6923076923077" y="202.0" />
+      <point x="742.0" y="202.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Simulator" target="gates.Gate">
+      <point x="39.38461538461536" y="-15.5" />
+      <point x="582.3846153846154" y="222.0" />
+      <point x="804.3461538461538" y="222.0" />
+      <point x="804.3461538461538" y="51.0" />
+      <point x="536.7053571428571" y="51.0" />
+      <point x="39.375" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="417.5" y="-8.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
